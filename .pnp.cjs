@@ -40,6 +40,7 @@ const RAW_RUNTIME_STATE =
           ["@types/node", "npm:22.15.17"],\
           ["@types/react", "npm:18.3.21"],\
           ["@types/react-dom", "virtual:1866b8dfedab74f2c3540e1e5844d36f394558318607002f290de9152164de79fd7da9474c3b5084cfb1aeb919ecf7b15da24a4fee4e488a26fe4797880adfc2#npm:18.3.7"],\
+          ["eslint-plugin-react", "virtual:1866b8dfedab74f2c3540e1e5844d36f394558318607002f290de9152164de79fd7da9474c3b5084cfb1aeb919ecf7b15da24a4fee4e488a26fe4797880adfc2#npm:7.37.5"],\
           ["react", "npm:18.3.1"],\
           ["react-dom", "virtual:1866b8dfedab74f2c3540e1e5844d36f394558318607002f290de9152164de79fd7da9474c3b5084cfb1aeb919ecf7b15da24a4fee4e488a26fe4797880adfc2#npm:18.3.1"],\
           ["react-scripts", "virtual:1866b8dfedab74f2c3540e1e5844d36f394558318607002f290de9152164de79fd7da9474c3b5084cfb1aeb919ecf7b15da24a4fee4e488a26fe4797880adfc2#npm:5.0.1"],\
@@ -9208,6 +9209,37 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "SOFT"\
       }],\
+      ["virtual:1866b8dfedab74f2c3540e1e5844d36f394558318607002f290de9152164de79fd7da9474c3b5084cfb1aeb919ecf7b15da24a4fee4e488a26fe4797880adfc2#npm:7.37.5", {\
+        "packageLocation": "./.yarn/__virtual__/eslint-plugin-react-virtual-2696d493cc/3/.yarn/berry/cache/eslint-plugin-react-npm-7.37.5-d03f6b6543-10c0.zip/node_modules/eslint-plugin-react/",\
+        "packageDependencies": [\
+          ["@types/eslint", null],\
+          ["array-includes", "npm:3.1.8"],\
+          ["array.prototype.findlast", "npm:1.2.5"],\
+          ["array.prototype.flatmap", "npm:1.3.3"],\
+          ["array.prototype.tosorted", "npm:1.1.4"],\
+          ["doctrine", "npm:2.1.0"],\
+          ["es-iterator-helpers", "npm:1.2.1"],\
+          ["eslint", null],\
+          ["eslint-plugin-react", "virtual:1866b8dfedab74f2c3540e1e5844d36f394558318607002f290de9152164de79fd7da9474c3b5084cfb1aeb919ecf7b15da24a4fee4e488a26fe4797880adfc2#npm:7.37.5"],\
+          ["estraverse", "npm:5.3.0"],\
+          ["hasown", "npm:2.0.2"],\
+          ["jsx-ast-utils", "npm:3.3.5"],\
+          ["minimatch", "npm:3.1.2"],\
+          ["object.entries", "npm:1.1.9"],\
+          ["object.fromentries", "npm:2.0.8"],\
+          ["object.values", "npm:1.2.1"],\
+          ["prop-types", "npm:15.8.1"],\
+          ["resolve", "patch:resolve@npm%3A2.0.0-next.5#optional!builtin<compat/resolve>::version=2.0.0-next.5&hash=c3c19d"],\
+          ["semver", "npm:6.3.1"],\
+          ["string.prototype.matchall", "npm:4.0.12"],\
+          ["string.prototype.repeat", "npm:1.0.0"]\
+        ],\
+        "packagePeers": [\
+          "@types/eslint",\
+          "eslint"\
+        ],\
+        "linkType": "HARD"\
+      }],\
       ["virtual:6315756d3f8d9eb2a9138f7b1b47b0d03e2316dc068b899594227e25c94ebbddc5b59569075351b067bc6106a14723bfa5675f4f14d7610ae918aab82afb95fc#npm:7.37.5", {\
         "packageLocation": "./.yarn/__virtual__/eslint-plugin-react-virtual-7e11368bda/3/.yarn/berry/cache/eslint-plugin-react-npm-7.37.5-d03f6b6543-10c0.zip/node_modules/eslint-plugin-react/",\
         "packageDependencies": [\
@@ -17362,6 +17394,7 @@ const RAW_RUNTIME_STATE =
           ["@types/node", "npm:22.15.17"],\
           ["@types/react", "npm:18.3.21"],\
           ["@types/react-dom", "virtual:1866b8dfedab74f2c3540e1e5844d36f394558318607002f290de9152164de79fd7da9474c3b5084cfb1aeb919ecf7b15da24a4fee4e488a26fe4797880adfc2#npm:18.3.7"],\
+          ["eslint-plugin-react", "virtual:1866b8dfedab74f2c3540e1e5844d36f394558318607002f290de9152164de79fd7da9474c3b5084cfb1aeb919ecf7b15da24a4fee4e488a26fe4797880adfc2#npm:7.37.5"],\
           ["react", "npm:18.3.1"],\
           ["react-dom", "virtual:1866b8dfedab74f2c3540e1e5844d36f394558318607002f290de9152164de79fd7da9474c3b5084cfb1aeb919ecf7b15da24a4fee4e488a26fe4797880adfc2#npm:18.3.1"],\
           ["react-scripts", "virtual:1866b8dfedab74f2c3540e1e5844d36f394558318607002f290de9152164de79fd7da9474c3b5084cfb1aeb919ecf7b15da24a4fee4e488a26fe4797880adfc2#npm:5.0.1"],\
