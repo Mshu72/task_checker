@@ -2,6 +2,7 @@ import React from 'react'
 import { Header } from "../../components/header";
 import { Select } from "../../components/select";
 import AddCircleOutlineIcon from "@mui/icons-material/AddCircleOutline";
+import { ToDoList } from "../../components/toDoList";
 import "./style.css";
 
 export const Home = () => {
@@ -14,6 +15,9 @@ export const Home = () => {
           className="add_circle_outline_icon"
           fontSize="medium"
         />
+        </div>
+        <div className="contents">
+          <ToDoList />
         </div>
     </div>
   );
